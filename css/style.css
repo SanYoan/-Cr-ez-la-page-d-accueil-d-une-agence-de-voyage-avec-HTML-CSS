@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-container {
@@ -58,6 +59,28 @@ a {
     color: var(--main-bg-color)
 }
 
+nav { 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.acti-vite:hover,
+.heber-gements:hover {
+    border-top: #0065FC solid 2px;
+    padding-top: 20px;
+}
+
+.heber-gements {
+    margin-left: 1000px;
+    margin-right: 68px;
+}
+.logo_accueil {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 20px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

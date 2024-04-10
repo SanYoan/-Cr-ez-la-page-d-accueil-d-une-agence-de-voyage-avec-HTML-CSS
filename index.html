@@ -21,13 +21,13 @@
                 <img class="logo_accueil" src="images/logo/Booki.png" alt="logo booki">
             </div>        
             <nav>
-                <a href="#">Hébergements</a>
-                <a href="#">Activités</a>
+                <a href="#ancre_hebergements">Hébergements</a>
+                <a href="#ancre_activites">Activités</a>
             </nav>
  
         </header>
         <main>
-            <section class="recherche">
+            <section >
                 <div >
                     <h1>Trouvez votre hebergement pour des vacances de rêve</h1>
                     <p>En Plein centre-ville ou en pleine nature</p>
@@ -69,7 +69,7 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="populaires-title">
-                        <h2 class="section-title">Hébergements à Marseille</h2>
+                        <h2 id="ancre_hebergements" class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements_photo">
                         <div class="ligne1">
@@ -130,8 +130,6 @@
                                 </div>
                             </article>
                         </a>
-                    </div>
-                    <div class="ligne2">
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -190,8 +188,8 @@
                             </article>
                         </a>
                     </div>
-                    <a class="afficher_hebergements" href="#">Afficher plus</a>
                     </div>    
+                    <a class="afficher_hebergements" href="#">Afficher plus</a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -262,7 +260,7 @@
             <div>
                 <section>
                     <div class="titre_activites">
-                        <h2 class="section-title">Activités à Marseille</h2> 
+                        <h2 id="ancre_activites" class="section-title">Activités à Marseille</h2> 
                     </div>
                     <div class="activites">
                         <article class="activites_box">
@@ -286,30 +284,32 @@
                 </div>
         </main>
         <footer>
-            <ul>
-                <li>
-                <h2>À propos</h2>
-                </li>
-                <li><a href="#"> Fonctionnement du site </a></li>
-                <li><a href="#"> Conditions générales </a></li>
-                <li><a href="#"> Données confidentialité </a></li>
-            </ul>
-            <ul>
-                <li>
-                <h2>Nos hébergements</h2>
-                </li>
-                <li><a href="#"> Charte qualité </a></li>
-                <li><a href="#"> Proposer votre hôtel </a></li>
-            </ul>
-            <ul>
-                <li>
-                <h2>Assistance</h2>
-                </li>
-                <li><a href="#"> Centre d'aide </a></li>
-                <li><a href="#"> Nous contacter </a></li>
-            </ul>
-        </footer>
-    </div>
+            <div class="list_footer">
+                <ul>
+                    <li>
+                        <h2>À propos</h2>
+                    </li>
+                    <li><a href="#"> Fonctionnement du site </a></li>
+                    <li><a href="#"> Conditions générales </a></li>
+                    <li><a href="#"> Données confidentialité </a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Nos hébergements</h2>
+                    </li>
+                    <li><a href="#"> Charte qualité </a></li>
+                    <li><a href="#"> Proposer votre hôtel </a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Assistance</h2>
+                    </li>
+                    <li><a href="#"> Centre d'aide </a></li>
+                    <li><a href="#"> Nous contacter </a></li>
+                </ul>
+            </div>
+            </footer>
+        </div>
 </body>
 
 </html>

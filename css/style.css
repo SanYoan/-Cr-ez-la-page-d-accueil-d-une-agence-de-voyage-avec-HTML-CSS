@@ -333,6 +333,7 @@ footer {
     justify-content: space-around;
     gap: 200px;
     background-color: #F2F2F2;
+    margin-top: 60px;
 }
 
 footer li {

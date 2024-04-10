@@ -187,6 +187,7 @@ header {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    height: 680px;
 }
 
 .hebergements-and-populaires section {
@@ -198,7 +199,57 @@ header {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+  width: 65%; 
+  
+}
+
+.hebergements .card {
+    width: 250px;
+
+}
+
+.hebergements_photo {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.hebergements_photo img {
+    height: 136px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.hebergements_photo .card-content {
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+.afficher_hebergements {
+    font-size: 20px;
+    width: 100%;
+    padding: 30px 0px 0px 30px;
+    font-weight: bold;
+
+}
+
+
+.ligne1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ligne2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /****** Populaires ***********/

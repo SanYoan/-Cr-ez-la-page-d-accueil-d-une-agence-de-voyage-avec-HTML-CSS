@@ -474,14 +474,14 @@ footer li {
         padding-bottom: 20px;
         border-top: none;
         font-size: 25px;
+        padding-left: 18px;
     }
 
     nav a:hover {
         border-bottom: #0065FC solid 4px;
         border-top: none;
         width: 50%;
-        padding-bottom: 20px;
-        padding-left: 18px;
+        padding-bottom: 20px;   
     }
 
     header div {

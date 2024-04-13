@@ -474,6 +474,7 @@ footer li {
         padding-bottom: 20px;
         border-top: none;
         font-size: 25px;
+	padding-left: 18px;
     }
 
     nav a:hover {

@@ -218,16 +218,16 @@ header {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
   width: 65%; 
-  
+  background-color: var(--main-bg-color);
 }
 
 .ligne1 {
@@ -272,7 +272,6 @@ header {
 
 .afficher_hebergements {
     font-size: 20px;
-    width: 100%;
     font-weight: bold;
 
 }
@@ -281,6 +280,7 @@ header {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -359,12 +359,10 @@ header {
 /******** Footer ********/
 
 footer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
     background-color: #F2F2F2;
     margin-top: 50px;
 }
+
 .list_footer {
     display: flex;
     width: 100%;
@@ -448,6 +446,10 @@ footer li {
 @media (max-width: 767.98px) {
     /* ... */
 
+    .research_bar {
+        justify-content: center;
+    }
+
     .button_search {
         display: none;
     }
@@ -506,5 +508,81 @@ footer li {
         padding-top: 20px;
         height: auto;
     }
+
+    h1 {
+        text-align: center;
+    }
+
+    .h1_paragraphe {
+        text-align: center;
+    }
+
+    .filtres {
+       display: initial;
+       width: 100%;
+    }
+
+    .all_buttons {
+        width: 100%;
+        align-items: center;
+        gap: initial;
+    }
+
+    .button_filtres {  
+        width: 46%;
+    }
+   
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements {
+        background-color: #ffffff;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .ligne1 {
+        flex-direction: column;
+        gap: 20px;  
+    }
+
+    .ligne1 a {
+        width: 100%;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires {
+        background-color: var(--main-bg-color);
+    }
+
+    .activites_container {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activites_box {   
+        width: 92%;
+    }
+
+    .list_footer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+
 }
 

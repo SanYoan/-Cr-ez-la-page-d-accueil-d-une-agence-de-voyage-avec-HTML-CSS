@@ -480,15 +480,18 @@ footer li {
         padding-bottom: 20px;
         border-top: none;
         font-size: 25px;
+<<<<<<< HEAD
 	padding-left: 18px;
+=======
+        padding-left: 18px;
+>>>>>>> 8f0312cf6c4fa19882058232906bbbf9d5e831fa
     }
 
     nav a:hover {
         border-bottom: #0065FC solid 4px;
         border-top: none;
         width: 50%;
-        padding-bottom: 20px;
-        padding-left: 18px;
+        padding-bottom: 20px;   
     }
 
     header div {

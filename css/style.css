@@ -60,10 +60,20 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+.titreh1{
+    margin: 0px;
+    font-size: 22px;
+}
+
+.h1_paragraphe {
+    margin: 4px 0px 20px 0px;
+}
+
 /******** header *******/
 nav { 
     display: flex;
-    gap: 25px; 
+    gap: 68px; 
 }
 nav a {
     padding-top: 20px;
@@ -87,7 +97,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /******** recherche *******/
@@ -120,15 +130,17 @@ header {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
+    width: 12%;
+    font-size: 18px;
 }
     
 
 .research_bar {
     display: flex;
     flex-direction: row;
-    margin-bottom: 5px;
+    margin: 36px 0px 30px 0px;
     border-radius: 15px;
     height: 49px;
 }
@@ -150,7 +162,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px;
+    
 }
 
 .filtres {
@@ -171,13 +183,14 @@ header {
 }
 
 .titreh2 {
-    line-height: 5px;
+    font-size: 18px;
     padding: 5px;
 }
 
 
 .text_button {
     padding: 5px;
+    font-size: 17px;
 }
 
 .button_filtres:hover {
@@ -191,6 +204,7 @@ header {
     align-items: center;
     margin-bottom: auto;
     gap: 10px;
+    margin: 15px 0px 15px 0px;
 }
     
     
@@ -234,31 +248,30 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
     
 }
 
 .card-subtitle {
     margin: 8px 0 8px 0px;
+    font-size: 14px;
 }
 
 .ligne1 a {
     width: 30%;
 }
 
-.ligne1 .card {
-    height: 95%;
-}
+
 
 .hebergements_photo {
    margin-bottom: 20px;
-   margin-top: 20px;
+   margin-top: 32px;
     
 }
 
 .hebergements_photo img {
-    height: 136px;
+    height: 124px;
     display: flex;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -326,9 +339,8 @@ header {
 /******** Activités ********/
 
 .titre_activites {
-   padding-left: 20px;
    padding-top: 50px;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
 }
 .activites_container {
     display: flex;
@@ -360,6 +372,7 @@ header {
 .activites_box h3 {
     margin: auto;
     padding: 10px 0px 0px 12px;
+    font-size: 16px;
   }
 
 /******** Footer ********/
@@ -382,6 +395,10 @@ footer li {
     margin: 10px;
 }
 
+li h2 {
+    font-size: 18px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -396,9 +413,6 @@ footer li {
         height: 78%;
     }
 
-    .activites_box h3 {
-        font-size: 19px;
-    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -445,6 +459,13 @@ footer li {
         flex-direction: column;
     }
 
+    .button_search {
+        width: 16%;
+    }
+    
+    .research_bar {
+        margin: 36px 0px 10px 0px;
+    }
 
 }
 
@@ -454,6 +475,7 @@ footer li {
 
     .research_bar {
         justify-content: center;
+        margin: 28px 0px 28px 0px;
     }
 
     .button_search {
@@ -479,8 +501,6 @@ footer li {
         width: 50%;
         padding-bottom: 20px;
         border-top: none;
-        font-size: 25px;
-	    padding-left: 18px;
     }
 
     nav a:hover {
@@ -488,7 +508,6 @@ footer li {
         border-top: none;
         width: 50%;
         padding-bottom: 20px;
-        padding-left: 18px;
     }
 
     header div {
@@ -506,24 +525,15 @@ footer li {
         padding: 0px;
     }
 
-    header div {
-        display: flex;
-        justify-content: center;
-    }
 
     .logo_accueil {
-        width: 28%;
+        width: 61px;
         padding-top: 20px;
-        height: auto;
+        height: 19px;
     }
 
-    h1 {
-        text-align: center;
-    }
 
-    .h1_paragraphe {
-        text-align: center;
-    }
+
 
     .filtres {
        display: initial;
@@ -548,9 +558,7 @@ footer li {
         background-color: #ffffff;
     }
 
-    .section-title {
-        font-size: 32px;
-    }
+
 
     .ligne1 {
         flex-direction: column;
@@ -588,9 +596,43 @@ footer li {
         display: flex;
         width: 100%;
         flex-direction: column;
-        font-size: 20px;
     }
 
+    .maincss {
+        padding: 10px;
+    }
+
+    .bar_search {
+        width: 100%;
+    }
+
+    .text_button {
+        font-size: 14px;
+    }
+
+    .recherche_info {
+        width: 335px;
+        height: 38px;
+        margin: 20px 0px 15px 0px;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0;
+        margin: 0px;
+        padding: 30px 10px 30px 10px;
+    }
+    
+    .activites_section {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .titre_activites {
+        padding: 0px 0px 30px 20px;
+    }
+
+    .list_footer ul {
+        width: 100%;
+    }
 
 }
 
